@@ -1,3 +1,7 @@
+//
+// This program is just an example one under VCS.
+// Author: Belov Eugen, KE-217
+//
 #include <iostream>
 #include <math.h>
 
@@ -5,22 +9,22 @@ using namespace std;
 
 int main()
 {
-	setlocale(LC_ALL, "Russian"); //ðóññêèé
+	setlocale(LC_ALL, "Russian"); //Ã°Ã³Ã±Ã±ÃªÃ¨Ã©
 
-	int a, b, c, d, e ;
+	int a, b, c, d, e;
 
-	cout << "Ïåðâîå ÷èñëî" << endl;
+	cout << "ÃÃ¥Ã°Ã¢Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã®" << endl;
 	cin >> a;
 
-	cout << "Âòîðîå ÷èñëî" << endl;
+	cout << "Ã‚Ã²Ã®Ã°Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã®" << endl;
 	cin >> b;
 
 	c = a - b;
 	d = a + b;
 	e = a / b;
 
-	cout << "Ñóììà = " << c << endl;
-	cout << "Ðàçíîñòü = " << d << endl;
-	cout << "Ïðîèçâåäåíèå = " << e << endl;
+	cout << "Ã‘Ã³Ã¬Ã¬Ã  = " << c << endl;
+	cout << "ÃÃ Ã§Ã­Ã®Ã±Ã²Ã¼ = " << d << endl;
+	cout << "ÃÃ°Ã®Ã¨Ã§Ã¢Ã¥Ã¤Ã¥Ã­Ã¨Ã¥ = " << e << endl;
 
 }
