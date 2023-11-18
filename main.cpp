@@ -1,3 +1,4 @@
+//Учебный
 #include <iostream>
 #include <math.h>
 
