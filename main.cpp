@@ -9,23 +9,23 @@ using namespace std;
 
 int main()
 {
-	setlocale(LC_ALL, "Russian"); //русский
+	setlocale(LC_ALL, "Russian"); //Г°ГіГ±Г±ГЄГЁГ©
 
-	int a, b, c, d, e;
+	int a, b, c, d, f;
 
-	cout << "Первое число" << endl;
+	cout << "ГЏГҐГ°ГўГ®ГҐ Г·ГЁГ±Г«Г®" << endl;
 	cin >> a;
 
-	cout << "Второе число" << endl;
+	cout << "Г‚ГІГ®Г°Г®ГҐ Г·ГЁГ±Г«Г®" << endl;
 	cin >> b;
 
 	c = a + b;
 	d = a - b;
-	e = a * b;
+	f = a * b;
 
-	cout << "Сумма = " << c << endl;
-	cout << "Разность = " << d << endl;
-	cout << "Произведение = " << e << endl;
+	cout << "Г‘ГіГ¬Г¬Г  = " << c << endl;
+	cout << "ГђГ Г§Г­Г®Г±ГІГј = " << d << endl;
+	cout << "ГЏГ°Г®ГЁГ§ГўГҐГ¤ГҐГ­ГЁГҐ = " << e << endl;
 
 
 }
