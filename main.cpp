@@ -1,4 +1,7 @@
-//Учебный
+//
+// This program is just an example one under VCS.
+// Author: Belov Eugen, KE-217
+//
 #include <iostream>
 #include <math.h>
 
@@ -8,7 +11,7 @@ int main()
 {
 	setlocale(LC_ALL, "Russian"); //русский
 
-	int a, b, c;
+	int a, b, c, d, e;
 
 	cout << "Первое число" << endl;
 	cin >> a;
@@ -16,8 +19,13 @@ int main()
 	cout << "Второе число" << endl;
 	cin >> b;
 
-	c = a - b;
+	c = a + b;
+	d = a - b;
+	e = a * b;
 
 	cout << "Сумма = " << c << endl;
+	cout << "Разность = " << d << endl;
+	cout << "Произведение = " << e << endl;
+
 
 }
