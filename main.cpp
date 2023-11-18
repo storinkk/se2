@@ -15,7 +15,7 @@ int main()
 	cout << "Второе число" << endl;
 	cin >> b;
 
-	c = a + b;
+	c = a - b;
 
 	cout << "Сумма = " << c << endl;
 
