@@ -17,7 +17,7 @@ int main()
 
 	c = a - b;
 	d = a + b;
-	e = a * b;
+	e = a / b;
 
 	cout << "Сумма = " << c << endl;
 	cout << "Разность = " << d << endl;
