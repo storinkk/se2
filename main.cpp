@@ -1,4 +1,3 @@
-//Учебный
 #include <iostream>
 #include <math.h>
 
@@ -8,7 +7,7 @@ int main()
 {
 	setlocale(LC_ALL, "Russian"); //русский
 
-	int a, b, c;
+	int a, b, c, d, e ;
 
 	cout << "Первое число" << endl;
 	cin >> a;
@@ -17,7 +16,11 @@ int main()
 	cin >> b;
 
 	c = a - b;
+	d = a + b;
+	e = a * b;
 
 	cout << "Сумма = " << c << endl;
+	cout << "Разность = " << d << endl;
+	cout << "Произведение = " << e << endl;
 
 }
