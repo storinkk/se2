@@ -11,7 +11,7 @@ int main()
 {
 	setlocale(LC_ALL, "Russian"); //ðóññêèé
 
-	int a, b, c, d, f;
+	int a, b, c, d, f, e;
 
 	cout << "Ïåðâîå ÷èñëî" << endl;
 	cin >> a;
@@ -22,10 +22,11 @@ int main()
 	c = a + b;
 	d = a - b;
 	f = a * b;
+	e = a / b;
 
 	cout << "Ñóììà = " << c << endl;
 	cout << "Ðàçíîñòü = " << d << endl;
 	cout << "Ïðîèçâåäåíèå = " << e << endl;
-
+	cout << "Умножение = " << f << endl;
 
 }
