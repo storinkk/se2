@@ -5,18 +5,18 @@ using namespace std;
 
 int main()
 {
-	setlocale(LC_ALL, "Russian"); //русский
+	setlocale(LC_ALL, "Russian"); //Г°ГіГ±Г±ГЄГЁГ©
 
 	int a, b, c;
 
-	cout << "Первое число" << endl;
+	cout << "ГЏГҐГ°ГўГ®ГҐ Г·ГЁГ±Г«Г®" << endl;
 	cin >> a;
 
-	cout << "Второе число" << endl;
+	cout << "Г‚ГІГ®Г°Г®ГҐ Г·ГЁГ±Г«Г®" << endl;
 	cin >> b;
 
 	c = a + b;
 
-	cout << "Сумма = " << c << endl;
+	cout << "Г‘ГіГ¬Г¬Г  = " << c << endl;
 
 }
