@@ -1,6 +1,6 @@
 //
 // This program is just an example one under VCS.
-// Author: Belov Eugen, KE-217
+// Author: Shichaleev Vladimir, KE-217
 //
 #include <iostream>
 #include <math.h>
